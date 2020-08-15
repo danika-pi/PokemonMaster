@@ -1,0 +1,47 @@
+int locElevation = 16;
+int iSSmallArea = 0;
+
+long double coordinate[1000][3] = {
+#if 0
+	{37.551459, -121.962500, NORMAL}, //VitaCourse Station 16 Balance 
+	{37.551479, -121.961874, NORMAL},
+	{37.551310, -121.961484, NORMAL},
+	{37.550636, -121.960754, NORMAL},
+	{37.550320, -121.959893, NORMAL},
+	{37.550769, -121.959440, NORMAL},
+	{37.550042, -121.957782, NORMAL},
+	{37.548669, -121.958447, NORMAL},
+	{37.546833, -121.957761, NORMAL},
+	{37.546386, -121.958153, NORMAL}, //Sandy A White Memorial Bench
+#endif
+	{37.545482, -121.959458, NORMAL}, //Mayor Trail Marker
+	{37.545231, -121.960574, NORMAL}, //Fremont Nature Center
+	{37.544157, -121.960016, NORMAL}, //Holt McPherson Memorial Bench
+	{37.543276, -121.959893, NORMAL}, //Aqua Adventure Mural
+	{37.543000, -121.961033, NORMAL}, //Li'l Squirts
+	{37.543330, -121.960770, NORMAL}, //Fortress of Fun
+	{37.543749, -121.961211, NORMAL}, //Rain Garden
+	{37.544140, -121.962350, NORMAL}, //Central Park - Lake Elizabeth
+	{37.544401, -121.963849, NORMAL}, //Sealing a Crack In The Earth Fremont 
+	{37.544658, -121.963839, NORMAL}, //Kennedy Play Area
+	{37.545275, -121.964399, NORMAL}, //Redwood Area
+	{37.545322, -121.965184, NORMAL}, //Fremont Community Center
+	{37.545460, -121.964952, NORMAL}, //Fremont Earthquake Exhibit
+	{37.545947, -121.964293, NORMAL}, //M.L.B. Bench
+	{37.545279, -121.963311, NORMAL}, //Women Of The Moose
+	{37.544911, -121.962560, NORMAL}, //Sandy Forrest Memorial
+	{37.545525, -121.962265, NORMAL}, //Brook Area 2
+	{37.545460, -121.961651, NORMAL}, //Sabertooth
+	{37.545663, -121.961394, NORMAL}, //Lake Elizabeth Forest Playground
+	{37.546018, -121.962454, NORMAL}, //Kiwanis Bridge
+	{37.546536, -121.962806, NORMAL}, //Sue Samuelson PhD
+	{37.547521, -121.962391, NORMAL}, //In Memory of Sal Andrade
+	{37.546208, -121.960698, NORMAL}, //Fields Bench
+	{37.546143, -121.960384, NORMAL}, //Holden Deck Bench
+
+	{37.545482, -121.959458, NORMAL}, //Mayor Trail Marker
+
+	{37.551459, -121.962500, NORMAL}, //VitaCourse Station 16 Balance 
+	{0.0, 0.0}
+};
+

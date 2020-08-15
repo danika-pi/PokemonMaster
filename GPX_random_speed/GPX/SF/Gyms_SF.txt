@@ -1,0 +1,42 @@
+<wpt lat="37.788217" lon="-122.388200"> //Bay Bridge
+<wpt lat="37.789532" lon="-122.388766"> //Mozilla Office
+<wpt lat="37.790357" lon="-122.390439"> //Symbols
+<wpt lat="37.791541" lon="-122.390014"> //Cupid's Span
+<wpt lat="37.792791" lon="-122.391739"> //Aurora
+<wpt lat="37.793486" lon="-122.392613"> //The Audiffred Building
+<wpt lat="37.795078" lon="-122.392218"> //Friendly Bench
+<wpt lat="37.795370" lon="-122.393812"> //Ferry Building Clock Tower
+<wpt lat="37.794781" lon="-122.395195"> //Us
+<wpt lat="37.795013" lon="-122.396089"> //The Tulip
+<wpt lat="37.794309" lon="-122.395817"> //Eclipse by Charles O Perry
+<wpt lat="37.793755" lon="-122.397210"> //Starbucks
+<wpt lat="37.793340" lon="-122.398014"> //Reflective Pool
+<wpt lat="37.792809" lon="-122.397714"> //Tower at 101 California Street
+<wpt lat="37.791278" lon="-122.399218"> //Mechanics Monument (Struggle
+<wpt lat="37.791545" lon="-122.402770"> //Russ Building
+<wpt lat="37.790683" lon="-122.405555"> //Chinatown Gate
+<wpt lat="37.790446" lon="-122.407360"> //Robert Louis Stevenson
+<wpt lat="37.787929" lon="-122.407576"> //Dewey Monument - Union Square
+<wpt lat="37.787587" lon="-122.407959"> //Union Square
+<wpt lat="37.786520" lon="-122.408190"> //Starbucks
+<wpt lat="37.786170" lon="-122.409060"> //Starbucks
+<wpt lat="37.786970" lon="-122.412100"> //Tiger Mural
+<wpt lat="37.786726" lon="-122.414073"> //Alcazar Theater
+<wpt lat="37.786442" lon="-122.414731"> //Peacock Mural At Star Market
+<wpt lat="37.785263" lon="-122.416581"> //Mantis Mural
+<wpt lat="37.780935" lon="-122.414760"> //Victory Wall Mural
+<wpt lat="37.780264" lon="-122.416384"> //Asian Art Museum
+<wpt lat="37.780508" lon="-122.412260"> //Black & White Mural
+<wpt lat="37.782572" lon="-122.409586"> //Wilson Heritage Building
+<wpt lat="37.784600" lon="-122.407690"> //Cable Car Turnaround
+<wpt lat="37.786709" lon="-122.404988"> //Phelan Building
+<wpt lat="37.788018" lon="-122.403388"> //Lotta's Fountain
+<wpt lat="37.786957" lon="-122.403143"> //Keys for Harry Bridges
+<wpt lat="37.786347" lon="-122.402456"> //Tromp L'Oeil
+<wpt lat="37.783985" lon="-122.398973"> //The Nest
+<wpt lat="37.784155" lon="-122.402500"> //The Shaking Man
+<wpt lat="37.783224" lon="-122.403025"> //Moscone West
+<wpt lat="37.784210" lon="-122.404225"> //Starbucks
+<wpt lat="37.783197" lon="-122.405487"> //Find shiny deals at Sprint
+<wpt lat="37.781089" lon="-122.405295"> //Crimson Skull
+<wpt lat="37.780922" lon="-122.405877"> //Amazing Wall Art

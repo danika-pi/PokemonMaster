@@ -1,0 +1,111 @@
+int locElevation = 20;
+int iSSmallArea = 0;
+
+long double coordinate[1000][3] = {
+	{37.786265, -122.408994, NORMAL}, /* O'Farrell & Cyril Magnin */
+	{37.785404, -122.408694, NORMAL}, /* Ellis & Cyril Magnin */
+	{37.784462, -122.408549, NORMAL}, /* Eddy &  Cyril Magnin */
+	{37.784476, -122.408176, NORMAL},
+	{37.783995, -122.408002, NORMAL}, /* Market & Cyril Magnin */
+	{37.785742, -122.405872, NORMAL}, /* Market & 4th */
+	
+	/* BEGIN slow walk */
+	{37.787734, -122.403410, NORMAL}, /* Market & 3rd */
+	{37.789274, -122.403880, NORMAL}, // Asian art center
+	{37.788945, -122.402896, NORMAL}, // Mechanics Institute Library
+	{37.789251, -122.402265, NORMAL}, // Rooftop Sundial
+	{37.789521, -122.402382, NORMAL}, // Wells Fargo Chess Art
+	{37.789585, -122.401960, NORMAL}, // Starbucks
+	{37.789415, -122.401495, NORMAL}, // Hobart Building Plaque
+	{37.789720, -122.401140, NORMAL}, // Starbucks
+	{37.790053, -122.400733, NORMAL}, // Big Illy Coffee Cup
+	{37.789950, -122.401868, NORMAL}, // Roof Garden Fountain
+	{37.790176, -122.402054, NORMAL}, // Starbucks
+	{37.789912, -122.402576, NORMAL}, // Mercury
+	{37.789722, -122.402885, NORMAL}, // Giant Chess Board 2
+	/* END slow walk */
+
+	{37.789274, -122.40388, NORMAL}, // Chrysanthemum Mural
+	{37.789608, -122.405438, NORMAL}, /* Sutter & Grant */
+	{37.789410, -122.406674, NORMAL}, // Galen Lion
+
+	/* BEGIN slow walk */
+	{37.789439, -122.406999, NORMAL}, /* Sutter & Stockton */
+	{37.789353, -122.407247, NORMAL}, /* Village of the Wind */
+	{37.789425, -122.407780, NORMAL}, // 450 Sutter
+	{37.789483, -122.408414, NORMAL}, // We Get Around
+	{37.789210, -122.408291, NORMAL}, // Odd Heart Art
+	{37.789078, -122.408424, NORMAL}, // Starbucks
+	{37.789239, -122.408630, NORMAL}, /* Sutter & Powell */
+	{37.789077, -122.409164, NORMAL}, // Shelton Theater
+	{37.789205, -122.409682, NORMAL}, // seashore Relief
+	{37.789027, -122.410293, NORMAL}, /* Sutter & Mason */
+	/* END slow walk */
+
+	{37.788811, -122.411907, NORMAL}, /* Sutter & Taylor */
+
+	{37.787904, -122.411729, NORMAL}, /* post & Taylor */
+	{37.786949, -122.411548, NORMAL}, /* Geary & Taylor */
+	{37.786023, -122.411371, NORMAL}, /* O'Farrell & Taylor */
+	{37.785093, -122.411151, NORMAL}, /* Ellis & Taylor */
+	{37.784167, -122.410977, NORMAL}, /* Eddy & Taylor */
+	{37.783209, -122.410784, NORMAL}, /* Turk & Taylor */ 
+	{37.782267, -122.410578, NORMAL}, /* Golden Gate Ave & 6 th */
+	{37.782217, -122.410367, NORMAL}, /* Market & & 6 th */
+
+	{37.783258, -122.409088, NORMAL}, /* Market & Mason */
+	{37.784364, -122.409319, NORMAL}, /* Eddy & Mason */
+	{37.785301, -122.409531, NORMAL}, /* Ellis & Mason */
+	{37.786255, -122.409704, NORMAL}, /* O'Farrell &  Mason */
+	{37.787171, -122.409892, NORMAL}, /* Geary &  Mason */
+	{37.788075, -122.410126, NORMAL}, /* post &  Mason */
+	{37.787932, -122.409351, NORMAL},
+
+	{37.788300, -122.408424, NORMAL}, /* post & Powell */
+	{37.788517, -122.406791, NORMAL}, /* post & Stockton */ 
+	{37.788127, -122.405755, NORMAL},
+	{37.788672, -122.405692, NORMAL},
+	{37.788709, -122.405237, NORMAL}, /* post & Grant */
+	{37.788908, -122.403688, NORMAL}, /* post & Kearny */
+
+	{37.787967, -122.403500, NORMAL}, /* Geary & Kearny */
+	{37.787778, -122.405069, NORMAL}, /* Geary & Grant */
+	{37.787592, -122.406613, NORMAL}, /* Geary & Stockton */
+	{37.787929, -122.407576, NORMAL},
+	{37.787405, -122.408238, NORMAL}, /* Geary & Powell */
+	{37.787168, -122.409923, NORMAL}, /* Geary & Mason */
+	{37.786960, -122.411548, NORMAL}, /* Geary & Taylor */
+	{37.786019, -122.411387, NORMAL}, /* O'Farrell & Taylor */
+
+	/* BEGIN slow walk */
+	{37.786248, -122.409703, DAWDLING}, /* O'Farrell & Mason */
+	{37.786366, -122.409425, DAWDLING}, // Angry Bird
+	{37.786296, -122.408802, DAWDLING}, // Johnny Foley's Irish House
+	{37.786441, -122.408050, DAWDLING}, /* O'Farrell & Powell */
+	{37.787020, -122.407329, DAWDLING},
+	{37.786947, -122.407244, DAWDLING}, // Number 57 Station San Francisco
+	{37.786786, -122.406634, DAWDLING},
+	{37.786645, -122.406431, DAWDLING}, /* O'Farrell & Stockton */
+	/* EBD slow walk */
+
+	{37.786836, -122.404858, NORMAL}, /* O'Farrell & Grant */
+	{37.786292, -122.406212, NORMAL},
+	{37.785726, -122.406243, NORMAL}, /* Ellis & Stockton */
+	{37.785509, -122.407873, NORMAL}, /* Ellis &  Powell */
+	{37.785297, -122.409531, NORMAL}, /* Ellis & Mason */
+	{37.785098, -122.411178, NORMAL}, /* Ellis & Taylor */	
+
+	{37.784165, -122.410963, NORMAL}, /* Eddy &  Taylor */
+	{37.784465, -122.408559, NORMAL}, /* Eddy & Cyril Magnin */
+
+	{37.784015, -122.408100, NORMAL}, /* Market & 5th */
+	{37.783484, -122.408847, NORMAL}, /* Market & Turk */
+	{37.783224, -122.410782, NORMAL}, /* Taylor & Turk */
+	{37.782225, -122.410349, NORMAL}, /* Market & 6th */
+	{37.784473, -122.407534, NORMAL},
+	{37.786444, -122.408051, NORMAL}, /* O'Farrell &  Powell */
+	{37.786265, -122.408994, NORMAL}, /* O'Farrell & Cyril Magnin */
+
+	{0.0, 0.0}
+};
+

@@ -1,0 +1,25 @@
+int locElevation = 38.0;
+int iSSmallArea = 1;
+
+long double coordinate[1000][3] = {
+	{48.890995, 2.236909, SLOW}, // Bienvenue au Les Quatre Temps!
+	{48.890910, 2.237182, SLOW},
+	{48.890808, 2.237510, SLOW},
+	{48.890656, 2.237693, SLOW}, //GYM: Puits cassis
+	{48.890554, 2.238180, SLOW},
+	{48.890500, 2.238528, SLOW}, //Verriere
+	{48.890354, 2.238756, SLOW}, //Le debut du bois
+	{48.890473, 2.238853, SLOW}, //Arbres reposants
+	{48.890610, 2.238963, SLOW}, //Bienvenue au Les Quatre Temps!
+	{48.890554, 2.238674, SLOW}, //Bienvenue au Les Quatre Temps!
+	{48.890602, 2.238463, SLOW}, // Fenetre immence
+	{48.890646, 2.238346, SLOW}, //Bienvenue au Les Quatre Temps!
+	{48.890699, 2.238126, SLOW}, //Bienvenue au Les Quatre Temps!
+	{48.890722, 2.237830, SLOW}, //Recetion 4T
+	{48.890808, 2.237510, SLOW}, //Bienvenue au Les Quatre Temps!
+	{48.890944, 2.237263, SLOW}, //4 Temps - Celio Club
+	{48.890995, 2.236909, SLOW}, // Bienvenue au Les Quatre Temps!
+
+	{0.0, 0.0}
+};
+

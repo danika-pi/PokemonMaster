@@ -1,0 +1,33 @@
+int locElevation = 13;
+int iSSmallArea = 0;
+
+long double coordinate[1000][3] = {
+	{-33.866164,151.216515, NORMAL}, /* Rathbourne Lodge */
+
+	{-33.866517,151.217156, NORMAL}, /* Lewis Wolfe Levy Fountain */
+	{-33.865974,151.217228, NORMAL}, /* Palm House */
+	{-33.865860,151.217618, NORMAL}, /* First Wishing Tree */
+	{-33.866287,151.218426, NORMAL}, /* Foundation and Friends */
+	{-33.865959,151.219050, NORMAL}, /* Henry Lawson Statue */
+	{-33.865793,151.218345, NORMAL}, /* Succulent Garden */
+	{-33.865337,151.217951, NORMAL}, /* Seed Form Sculpture */
+	// END slow walk
+
+	{-33.865396,151.217061, NORMAL}, /* Start of Agriculture in Australia */
+	{-33.865830,151.216616, NORMAL}, /* The Sydney Fernery */
+	{-33.864754,151.214882, NORMAL}, /* "Autumn" in Royal Botanic Gard */
+	{-33.863656,151.214260, NORMAL}, /* Conservatorium Cistern */
+	{-33.864891,151.216605, NORMAL}, /* Charles Moore Plaque */
+	{-33.865144,151.219908, NORMAL}, /* Veil of Trees */
+	{-33.864422,151.220315, NORMAL}, /* Paradiegma Metaphysic */
+	{-33.864397,151.219064, NORMAL}, /* Cycads Sign */
+	{-33.864074,151.217520, NORMAL}, /* Botanical Water Fountain */
+	{-33.863498,151.215384, NORMAL}, /* Herb Garden Site */
+	{-33.863022,151.215349, NORMAL}, /* Wattles an Australian Icon Sign */
+	{-33.86318,151.2150980, NORMAL}, /* Leicester Square Panorama Engraving */
+	{-33.862921,151.214037, NORMAL}, /* Conservatorium Re-Opening Plaq */
+
+	{-33.866164,151.216515, NORMAL}, /* Rathbourne Lodge */
+	{0.0, 0.0}
+};
+

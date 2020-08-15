@@ -1,0 +1,41 @@
+<wpt lat="48.833879" lon="2.297603"> //Plaque commération Paul Budant
+<wpt lat="48.832268" lon="2.297073"> //La Ruche
+<wpt lat="48.831673" lon="2.299946"> //Parc Georges Brassens - Vente 
+<wpt lat="48.831219" lon="2.300882"> //Parc Georges Brassens : l'â
+<wpt lat="48.831852" lon="2.300617"> //Parc Georges Brassens : Le Bassin
+<wpt lat="48.832657" lon="2.300562"> //Parc Georges Brassens - Taureau
+<wpt lat="48.833438" lon="2.301132"> //Pervers Caché8
+<wpt lat="48.832098" lon="2.302867"> //Porte du Parc Georges Brassens
+<wpt lat="48.831854" lon="2.306291"> //Femme Sculpt
+<wpt lat="48.833803" lon="2.308570"> //Hermè
+<wpt lat="48.833826" lon="2.309207"> //Bains-Douches La Main Collectif
+<wpt lat="48.834082" lon="2.309787"> //Salamèe  wait 2 min
+<wpt lat="48.838045" lon="2.308086"> //Fresque De Danseuses
+<wpt lat="48.840720" lon="2.310928"> //Institut Pasteur
+<wpt lat="48.841093" lon="2.312589"> //Saint Martin Statue
+<wpt lat="48.840161" lon="2.312538"> //Human Octopus
+<wpt lat="48.838708" lon="2.316067"> //Gare Vaugirard
+<wpt lat="48.838878" lon="2.318807"> //Archer Hall Pasteur
+<wpt lat="48.840518" lon="2.320722"> //Krakounet Prend Le Train
+<wpt lat="48.841600" lon="2.320812"> 
+<wpt lat="48.842341" lon="2.320340"> //Femme SculptéSur Façe
+<wpt lat="48.842006" lon="2.322242"> // La Tour Montparnasse
+<wpt lat="48.843983" lon="2.324339"> //Ici vét Georges Paulin
+<wpt lat="48.842753" lon="2.326062"> //Le Falstaff
+<wpt lat="48.842391" lon="2.329457"> //Monument àalzac - Rodin
+<wpt lat="48.843701" lon="2.330330"> //Fontaine Val D'Osne
+<wpt lat="48.841794" lon="2.331714"> //Façe DéréD'Arbres
+<wpt lat="48.840004" lon="2.336362"> //Statue Marechal Ney
+<wpt lat="48.838729" lon="2.339499"> //MaternitéAncienne Entré  4
+<wpt lat="48.840014" lon="2.339036"> //Un Livre est un outil de Liberté
+<wpt lat="48.840989" lon="2.339581"> //Élise Éangéque De Saint M
+<wpt lat="48.841043" lon="2.336780"> //Fontaine de l'Observatoire
+<wpt lat="48.841724" lon="2.337824"> //Paris. Rue du Val-de-Grace. S
+<wpt lat="48.844676" lon="2.334832"> //Charles Baudelaire
+<wpt lat="48.845850" lon="2.333504"> //Chopin
+<wpt lat="48.848260" lon="2.333939"> //Phidias and Athena Statue
+<wpt lat="48.847263" lon="2.337894"> //Statue Penseur
+<wpt lat="48.845723" lon="2.336853"> //Lion Statue
+<wpt lat="48.845163" lon="2.339460"> //L'éle Des Mines
+<wpt lat="48.844404" lon="2.342185"> //Institut D'oceanographie
+

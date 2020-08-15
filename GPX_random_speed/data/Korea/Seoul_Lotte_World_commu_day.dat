@@ -1,0 +1,37 @@
+int locElevation = 18.0;
+int iSSmallArea = 1;
+
+long double coordinate[1000][3] = { 
+
+	//starting from the center of the mall
+	{37.511456, 127.098535, NORMAL}, // Lotteria
+	{37.511600, 127.098264, NORMAL}, //Natuur
+	{37.511451, 127.097918, NORMAL}, // Lotteria
+	{37.511337, 127.098081, NORMAL}, // Angel-in-us Coffee
+	{37.511095, 127.098118, NORMAL}, //Lotte World Globe
+	{37.510781, 127.098217, NORMAL}, // Angel-in-us Coffee
+	{37.510610, 127.097660, NORMAL}, // Lotteria
+	{37.510391, 127.098169, NORMAL}, // Seven Eleven
+	{37.510088, 127.098100, NORMAL}, //GYM
+	{37.510371, 127.098575, NORMAL}, // Lion's Head Fountain
+	{37.510167, 127.098890, NORMAL}, //Lotte World Adventure
+	{37.510446, 127.099714, NORMAL}, // Music 
+	{37.510758, 127.100581, NORMAL},
+	{37.511113, 127.099144, NORMAL}, //Hydra
+	//Back to center of the mall
+	{37.511456, 127.098535, NORMAL}, // Lotteria
+	{37.511600, 127.098264, NORMAL}, //Natuur
+
+	//Towards north east of the mall
+	{37.512129, 127.099445, NORMAL}, // Huspy Hreme
+	{37.512330, 127.099307, NORMAL}, // Angel-in-us Coffee
+	{37.512494, 127.098527, NORMAL}, //
+	{37.512111, 127.096705, NORMAL},
+	{37.511167, 127.096253, NORMAL}, // GYM: Seven eleven
+	{37.510978, 127.096729, NORMAL}, //Angel-in-us Coffee
+
+	{37.511456, 127.098535, NORMAL}, // Lotteria
+
+	{0.0, 0.0}
+};
+

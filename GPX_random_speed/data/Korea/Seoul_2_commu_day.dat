@@ -1,0 +1,36 @@
+int locElevation = 18.0;
+int iSSmallArea = 1;
+
+long double coordinate[1000][3] = { 
+
+	//starting from the center of the mall
+	{37.513042, 127.103413, NORMAL}, // Seven Eleven
+	{37.513154, 127.103409, NORMAL}, // Angel-in-us Coffee
+	{37.513282, 127.103475, NORMAL}, // GYM
+	{37.513328, 127.104065, NORMAL}, // Angel-in-us Coffee
+
+	// five stops cluster
+	{37.513704, 127.104330, NORMAL}, // Seven Eleven
+	{37.513690, 127.104454, NORMAL}, // Angel-in-us Coffee
+	{37.513789, 127.104423, NORMAL}, // Villa De Charlotte
+	{37.513793, 127.104531, NORMAL}, // Huspy Hreme
+	{37.513856, 127.104320, NORMAL}, //Lotteria
+	//end five cluster
+
+	{37.513915, 127.103768, NORMAL}, //
+	{37.514076, 127.103332, NORMAL}, //
+	{37.513744, 127.102844, NORMAL}, 
+	{37.513044, 127.102798, NORMAL},
+	{37.512914, 127.102549, NORMAL}, // The Food House
+	{37.512767, 127.102610, NORMAL}, // GYM: Angel-in-us Coffee
+	{37.512740, 127.102542, NORMAL}, // Natuur
+	{37.512499, 127.102775, NORMAL},
+	{37.512509, 127.102877, NORMAL}, // GYM: Angel-in-us Coffee
+	{37.512597, 127.103370, NORMAL}, 
+	{37.512649, 127.104077, NORMAL},
+	
+	{37.513042, 127.103413, NORMAL}, // Seven Eleven
+
+	{0.0, 0.0}
+};
+

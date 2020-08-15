@@ -1,0 +1,106 @@
+int locElevation = 13;
+int iSSmallArea = 0;
+
+long double coordinate[1000][3] = {
+	{-33.867018,151.217565, NORMAL}, /* Botanic Gardens Gate */
+	{-33.865701,151.214733, NORMAL}, /* Sydney Tropical Centre*/
+	{-33.865342,151.214737, NORMAL}, /* Lawn Goals */
+
+	{-33.865684,151.214164, NORMAL}, /* Lawn Goals */
+	{-33.865414,151.212974, NORMAL}, /* Desert Mounted Corps Memorial */
+	{-33.863390,151.214076, NORMAL}, /* Conservatorium of Music Gym */
+	{-33.864402,151.213963, NORMAL}, /* North Rose Garden Lion */
+
+	{-33.865321,151.215581, NORMAL}, /* Australian Rainforest Walk */
+	{-33.865177,151.216319, NORMAL}, /* Elephant Foot Tree Sign */
+	{-33.866517,151.217156, NORMAL}, /* Lewis Wolfe Levy Fountain */
+ 	{-33.865974,151.217228, NORMAL}, /* Palm House */
+
+	{-33.865959,151.219050, NORMAL}, /* Henry Lawson Statue */
+	{-33.865396,151.217061, NORMAL}, /* Start of Agriculture in Australia */
+	{-33.865830,151.216616, NORMAL}, /* The Sydney Fernery */
+	{-33.864754,151.214882, NORMAL}, /* "Autumn" in Royal Botanic Gard */
+	{-33.863656,151.214260, NORMAL}, /* Conservatorium Cistern */
+	{-33.864891,151.216605, NORMAL}, /* Charles Moore Plaque */
+	{-33.865144,151.219908, NORMAL}, /* Veil of Trees */
+	{-33.864422,151.220315, NORMAL}, /* Paradiegma Metaphysic */
+	{-33.864397,151.219064, NORMAL}, /* Cycads Sign */
+	{-33.864074,151.217520, NORMAL}, /* Botanical Water Fountain */
+	{-33.863498,151.215384, NORMAL}, /* Herb Garden Site */
+	{-33.863022,151.215349, NORMAL}, /* Wattles an Australian Icon Sign */
+	{-33.86318,151.2150980, NORMAL}, /* Leicester Square Panorama Engraving */
+	{-33.862921,151.214037, NORMAL}, /* Conservatorium Re-Opening Plaq */
+#if 1
+	{-33.861925,151.214195, NORMAL}, /* NSW Government House */
+	{-33.861786,151.214528, NORMAL}, /* Weeping Fig Plaque */
+	{-33.861284,151.213675, NORMAL}, /* Field of Sandstone Buildings */
+	{-33.860721,151.214026, NORMAL}, /* The Wool Fleet 1892 */
+
+	{-33.860109,151.213192, NORMAL}, /* Writers Walk */
+
+	{-33.859608,151.212681, NORMAL}, /* Miles Franklin Plaque */
+	{-33.858942,151.213523, NORMAL}, /* Fontaine Opera Sydney */
+	{-33.858721,151.213115, NORMAL}, /* Fort Macquarie Tram Sheds */
+	{-33.858067,151.214306, NORMAL}, /* Xavier Herbert */
+
+	{-33.857806,151.214099, NORMAL}, /* Ethel Turner Plaque */
+	{-33.857516,151.214876, NORMAL}, /* Sydney Opera House */
+	{-33.856262,151.215064, NORMAL}, /* Matthew Flinders Plaque */
+
+	{-33.856893,151.215513, NORMAL}, /* Joan Sutherland Theatre - SOH */
+	{-33.857425,151.215428, NORMAL}, /* Utzon Room - Sydney Opera Hous */
+	{-33.858159,151.215588, NORMAL}, /* Man o' War Step */
+	{-33.858362,151.214789, NORMAL}, /* Millennial Wallscape: The Triumph of the Gum */
+	{-33.858895,151.215518, NORMAL}, /* Earth Mother */
+
+	{-33.860079,151.214992, NORMAL}, /* Government House */
+	{-33.860687,151.215071, NORMAL}, /* Government House Historic Sundial */
+	{-33.860387,151.215678, NORMAL}, /* Mirroring Sculpture */
+
+	{-33.859925,151.215572, NORMAL}, /* Government House Fountain */
+	{-33.859654,151.216557, NORMAL}, /* A Folly for Mrs Macquarie */
+	{-33.860324,151.216954, NORMAL}, /* Slit-Drum */
+	{-33.860271,151.216489, NORMAL}, /* Umbrella Tree */
+	{-33.861022,151.215988, NORMAL}, /* Wurrungwuri */
+#endif
+	{-33.861579,151.216445, NORMAL}, /* Dracaena Reflexa Sign */
+	{-33.862909,151.216092, NORMAL}, /* Forgotten Australians */
+	{-33.863666,151.216703, NORMAL}, /* Lady in the Botanic Gardens */
+	{-33.863519,151.217155, NORMAL}, /* Rhino Art Mosaic */
+	{-33.863006,151.217364, NORMAL}, /* Gardens Welcome Map */
+
+	{-33.863427,151.217715, NORMAL}, /* Palm Sculpture */
+
+	{-33.864081,151.217894, NORMAL}, /*Choragic Monument */
+	{-33.864074,151.217520, NORMAL}, /*Botanical Water Fountain */
+	{-33.864123,151.218456, NORMAL}, /* La Ballarina */
+
+	{-33.864397,151.219064, NORMAL}, /* Cycads Sign */
+
+	{-33.863658,151.218776, NORMAL}, /* Mare with foal */
+	{-33.863771,151.219675, NORMAL}, /* Sydney's Oldest Tree */
+#if 1
+	{-33.863031,151.220306, NORMAL}, /* Lower Gardens */
+
+	{-33.86253,151.2201290, NORMAL}, /* Lower Botanical Gardens */
+	{-33.861474,151.221325, NORMAL}, /* Queen Elizabeth II First Landed Monument */
+
+	{-33.859417,151.221870, NORMAL}, /* Survey Observation Pillar GYM */
+	{-33.859723,151.222543, NORMAL}, /* Mrs Macquarie's Chair */
+	{-33.860292,151.222310, NORMAL}, /* Yurong Precinct */
+	{-33.861126,151.222238, NORMAL}, /* Granite Monolith II */
+	{-33.86236,151.2221480, NORMAL}, /* Volunteers Memorial */
+
+	{-33.863144,151.221239, NORMAL}, /* Port Jackson Fig Tree Sign */
+	{-33.863295,151.220671, NORMAL}, /* Wish Bone Sculpture */
+#endif
+	{-33.863881,151.220732, NORMAL}, /* Barrel Roll */
+	{-33.864067,151.221311, NORMAL}, /* Dual Nature Statue */
+	{-33.864422,151.220315, NORMAL}, /* Paradiegma Metaphysic */
+	{-33.865144,151.219908, NORMAL}, /* Veil of Trees */
+
+	{-33.867018,151.217565, NORMAL}, /* Botanic Gardens Gate */
+
+	{0.0, 0.0}
+};
+
