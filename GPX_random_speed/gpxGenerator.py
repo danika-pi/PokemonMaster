@@ -1,5 +1,4 @@
 #!/usr/bin/python3.7
-from pathlib import Path
 import subprocess, os, re, sys
 
 targetFile_c=""
@@ -17,10 +16,6 @@ def autoFileC(dataFile, dataFileName, defineTag, extra):
 	if defineTag:
 		with open(targetFile_c, "a") as fout:
 			fout.write(defineTag + "\n")
-
-	#print("dataFileName = " + dataFileName)
-    #$cmd = "cat $dataFileName >> $targetFile_c";
-    #system($cmd);
 
 	with open(dataFileName, "r") as fin:
 		readFile=fin.read()
@@ -43,7 +38,6 @@ def autoFileC(dataFile, dataFileName, defineTag, extra):
 		mydataFile, dataFileName, defineTag, extraPath = re.sub('DATA', 'GPX', targetFile_gpx)
 		targetFileFullPath = myPath + targetFile_gpx
 	#print("targetFileFullPath = " + targetFileFullPath + "\n")
-
 
 	addTargetFile = "char targetFile[256] = "+ '"' + targetFileFullPath +'"' + ";"
 
